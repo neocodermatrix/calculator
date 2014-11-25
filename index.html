@@ -10,7 +10,7 @@
 <main>
 <h1>Calculator</h1>
 
-<p>Answer box</p>
+<p id="answerBox" class="clear"></p>
 
 <section id="set1">
 	<button class="button" id="button7">7</button>
@@ -20,24 +20,28 @@
 </section>
 
 <section id="set2">
-	<button>4</button>
-	<button>5</button>
-	<button>6</button>
-	<button>x</button>
+	<button class="button" id="button4">4</button>
+	<button class="button" id="button5">5</button>
+	<button class="button" id="button6">6</button>
+	<button class="button" id="buttonMultiply">x</button>
 </section>
 
 <section>
-	<button>1</button>
-	<button>2</button>
-	<button>3</button>
-	<button>+</button>
+	<button class="button" id="button1">1</button>
+	<button class="button" id="button2">2</button>
+	<button class="button" id="button3">3</button>
+	<button class="button" id="buttonPlus">+</button>
 </section>
 
 <section>
-	<button>0</button>
-	<button>.</button>
-	<button>=</button>
+	<button class="button" id="button0">0</button>
+	<button class="button" id="buttonPeriod">.</button>
+	<button class="button" id="buttonEqual">=</button>
 </section>
+
+<!-- <input type="button" value="Clear" id="clear"> 
+<textarea id='output' rows=20 cols=90></textarea> -->
+	<button class="button" id="buttonClear">Clear</button>
 
 <script src="js/main.js" type="text/javascript"></script>	
 </main>
