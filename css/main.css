@@ -1,17 +1,51 @@
 
 p{
-	border: 1px solid black;
+	border: 5px solid yellow;
 	margin: 5px;
 
 }
 
 main {
 	text-align: center;;
-	
+	width: 450px;
+	height: 400px;
+	margin: 0 auto;
 }
 
+#whole{
+	border: 20px solid black;
+	width: 305px;
+	margin: 0 auto;
+}
 
+#answerBox{
+	height: 50px;
+	width: 300px;
+	margin: 0 auto;
+	font-size: 40px;
+	color: #190714;
+}
+
+#calculator{
+	margin: 0 auto;
+	width: 285px;
+	background: blue;
+/*	box-shadow: -5px 6px blue;*/
+	padding: 10px;
+	padding-bottom: 30px;
+}
 
 button{
-	font-size: 40px;	
+	font-size: 30px;	
+	border-radius: 10px;
+	color: red;
+	margin: 5px;
+	padding: 10px;
+	height: 55px;
+	width: 55px;
+}
+
+#buttonEqual{
+	width: 265px;
+	padding-bottom: 50px;
 }
