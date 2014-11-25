@@ -1,6 +1,6 @@
 
 p{
-	border: 5px solid yellow;
+	border: 5px solid rgb(0,240, 255);
 	margin: 5px;
 
 }
@@ -43,6 +43,14 @@ button{
 	padding: 10px;
 	height: 55px;
 	width: 55px;
+}
+
+.buttonNum{
+	border-radius: 40px;
+}
+
+.buttonKey{
+	background-color: #007387;
 }
 
 #buttonEqual{
