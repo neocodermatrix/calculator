@@ -89,6 +89,7 @@ var button0 = document.getElementById("button0");
 var buttonPeriod = document.getElementById("buttonPeriod");
 var buttonEqual = document.getElementById("buttonEqual");
 var buttonClear = document.getElementById("buttonClear");
+var buttonMinus = document.getElementById("buttonMinus");
 
 
 button0.onclick = function (){
@@ -103,10 +104,13 @@ buttonPeriod.onclick = function (){
 // 	answerBox.innerHTML += "=" ;
 // }
 
-buttonClear.onclick = function (){
-	answerBox.innerHTML += " clear " ;
+buttonClear.onclick = function(){
+	answerBox.innerHTML = "";
 }
 
+buttonMinus.onclick = function(){
+	answerBox.innerHTML += "-";
+}
 
 // var answerBox = document.getElementById("answerBox");
 // answerBox.innerHTML
